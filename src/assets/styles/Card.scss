@@ -1,0 +1,81 @@
+.Box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .Card {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    .Images {
+      width: 360px;
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .Sort {
+      margin: 16px 0 16px 0;
+      span {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 13px;
+        color: #eb0028;
+      }
+    }
+
+    .Title {
+      span {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+      }
+    }
+
+    .BrandName {
+      margin: 16px 0 16px 0;
+
+      .Brand {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #000000;
+        margin-right: 10px;
+      }
+
+      .Data {
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #9b9b9b;
+      }
+    }
+
+    .Text {
+      span {
+        width: 360px;
+        height: 80px;
+        font-family: system-ui;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #929292;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+      }
+    }
+  }
+}
